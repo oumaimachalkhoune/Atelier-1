@@ -1,5 +1,4 @@
-#le calcul de puissance d'un nombre à partir d'une fonction
-
+#Une fonction qui renvoie la puissance d’un nombre X^n :
 
 def puissance(base,exposant):
     if exposant == 0 :
@@ -22,7 +21,3 @@ x=int(input("entrez la valeur de la base : "))
 n=int(input("entrez la valeur de lexposant : "))
 r=puissance(x,n)
 print("la puissance de X est : ",r)
-
-
-
- 
